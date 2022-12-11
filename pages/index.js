@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  const text = process.env.NEXT_PUBLIC_GITHUB
+  const text = process.env.greet
   console.log(text);
 
   return (
